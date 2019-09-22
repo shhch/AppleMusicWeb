@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>搜索</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_search.css"/>
+		<script type="text/javascript" src="js/jquery-1.7.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<p id="h1"><b>搜索</b></p>
+			<div id="tiao"><div id="pic1"></div><input type="text" id="sea" value="" placeholder="Apple Music"/></div>
+			
+			<p id="h2"><b>热门搜索</b></p>
+			<p class="pp">Taylor Swift</p><hr />
+			<p class="pp">Imagine Dragons</p><hr />
+			<p class="pp">Halsey</p>
+		</div>
+		
+		<div id="blank"></div>
+		
+		<div id="menu">
+			<hr />
+			<ul>
+				<li id="p1">
+					<a href="new_lib.html">
+						<div></div><span>资料库</span>
+					</a>
+				</li>
+				<li id="p2">
+					<a href="new_rcm.html">
+						<div></div><span>为您推荐</span>
+					</a>
+				</li>
+				<li id="p3">
+					<a href="new_bro.html">
+						<div></div><span>浏览</span>
+					</a>
+				</li>
+				<li id="p4">
+					<a href="new_rad.html">
+						<div></div><span>广播</span>
+					</a>
+				</li>
+				<li id="p5">
+					<a href="#main">
+						<div></div><span>搜索</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+	
+	<script>
+		var $input = $('#sea')
+		$input[0].onblur = function(){
+			$input.val('')
+		}
+		
+		
+	</script>
+</html>

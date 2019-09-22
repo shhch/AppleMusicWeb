@@ -1,0 +1,93 @@
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+p{
+	margin: 0px;
+}
+#main{
+	/*overflow-y: scroll;*/
+}
+#head ul{
+	padding-left: 10px;
+}
+#head p{
+	margin:20px 20px 10px 10px;
+	font-size: 40px;
+}
+#b{
+	font-size: 20px;
+	float: right;
+	color: rgb(255,45,85);
+	position: relative;
+	top: 20px;
+}
+.li span{
+	color: rgb(255,45,85);
+	font-size: 25px;
+}
+.li{
+	background-image: url(../img/右箭头.png);
+	background-repeat: no-repeat;
+	background-size: 10% 80%;
+	background-position: right;
+	margin-right: 10px;
+}
+#pic li{
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 20px;
+}
+.i1{
+	font-size: 20px;
+}
+.i2{
+	font-size: 20px;
+	color: #707070;
+}
+#zui{
+	padding-left: 10px;
+	margin-top: 30px;
+}
+#al1{
+	background-image: url(../img/专辑封面泰.jpg);
+	background-repeat: no-repeat;
+	border-radius:5px ;
+	background-size: 100% 100%;
+	width: 130px;
+	height: 130px;
+}
+#al2{
+	background-image: url(../img/专辑封面艾.png);
+	background-repeat: no-repeat;
+	border-radius:5px ;
+	background-size: 100% 100%;
+	width: 130px;
+	height: 130px;
+}
+#al3{
+	background-image: url(../img/专辑封面憋.png);
+	background-repeat: no-repeat;
+	border-radius:5px ;
+	background-size: 100% 100%;
+	width: 130px;
+	height: 130px;
+}
+#al3 ::after{
+	clear: both;
+}
+#blank{
+	width: 100%;
+	height: 500px;
+}
+/*设置颜色*/
+#p1 div{
+	background-image: url(../img/music红.png);
+}
+#p1{
+	background-color: #FFDFE5;
+	border-radius: 10px;
+}
+#p1 a{
+	color: #FF2D55;
+}

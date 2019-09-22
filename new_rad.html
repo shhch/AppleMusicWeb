@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-1.7.js"></script>
+		<title>广播</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_rad.css"/>
+	</head>
+	<body>
+		<div id="main">
+			<p id="h"><b>广播</b></p><hr />
+			<div id="dm">
+				<div id="dg">
+					<ul>
+						<li>
+							<p class="pp1">推荐电台</p>
+							<p class="pp2">欧美音乐台</p>
+							<p class="pp3">欧美热门单曲 即时更新</p>
+							<div id="d1"></div>
+						</li>
+						<li>
+							<p class="pp1">推荐电台</p>
+							<p class="pp2">从前的回忆</p>
+							<p class="pp3">来自儿时的温暖</p>
+							<div id="d2"></div>
+						</li>
+						<li>
+							<p class="pp1">推荐电台</p>
+							<p class="pp2">电子乐</p>
+							<p class="pp3">拓宽音乐界限的电子乐</p>
+							<div id="d3"></div>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<hr />
+		</div>
+		
+		<div id="fade">
+			<ul>
+        		<li id="pic1"></li>
+        		<li id="pic2"></li>
+        		<li id="pic3"></li>
+    		</ul>
+		</div>
+	
+		<div id="blank"></div>
+		
+		<div id="menu">
+			<hr />
+			<ul>
+				<li id="p1">
+					<a href="new_lib.html">
+						<div></div><span>资料库</span>
+					</a>
+				</li>
+				<li id="p2">
+					<a href="new_rcm.html">
+						<div></div><span>为您推荐</span>
+					</a>
+				</li>
+				<li id="p3">
+					<a href="new_bro.html">
+						<div></div><span>浏览</span>
+					</a>
+				</li>
+				<li id="p4">
+					<a href="#main">
+						<div></div><span>广播</span>
+					</a>
+				</li>
+				<li id="p5">
+					<a href="new_search.html">
+						<div></div><span>搜索</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+	
+	<script>
+		var $div = $('#fade')
+		var $p1 = $('#pic1')
+		var $p2 = $('#pic2')
+		var $p3 = $('#pic3')
+		
+		var pic = [$p1,$p2,$p3]
+		
+		var index = 0;
+		
+		setInterval(function(){
+			pic[index].fadeOut(500,function(){
+				if(index == pic.length - 1){
+					index = -1
+				}
+				pic[++index].fadeIn()
+			})
+		},4000)
+	</script>
+</html>

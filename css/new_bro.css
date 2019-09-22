@@ -1,0 +1,117 @@
+#main{
+	margin: 10px;
+	overflow-y: scroll;
+}
+#dg ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 300%;
+}
+#dm li{
+	float: left;
+	padding-right: 10px;
+}
+#dm{
+	width: 100%;
+	height: 325px;
+	overflow: hidden;
+}
+#dg{
+	width: 100%;
+	height: 340px;
+	overflow-x: scroll;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+#h{
+	font-size: 38px;
+	padding-top: 10px;
+}
+.pp1{
+	color: rgb(255,45,85);
+	font-size: 16px;
+}
+.pp2{
+	font-size: 25px;
+}
+.pp3{
+	color: #707070;
+	font-size: 25px;
+}
+#d1{
+	background-image: url(../img/图片二.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 5px;
+	width: 320px;
+	height: 240px;
+}
+#d2{
+	background-image: url(../img/图片三.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+}
+#d3{
+	background-image: url(../img/图片一.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+}
+#d1 span{
+	color: rgb(255,255,204);
+	position: relative;
+	top: 90%;
+	left: 5%;
+}
+#d2 span{
+	color: rgb(255,255,204);
+	position: relative;
+	top: 80%;
+	left: 3%;
+}
+#d3 span{
+	color: rgb(255,255,204);
+	position: relative;
+	top: 80%;
+	left: 3%;
+}
+#dj ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.li span{
+	color: rgb(255,45,85);
+	font-size: 25px;
+}
+.li{
+	width: 100%;
+	background-image: url(../img/右箭头.png);
+	background-repeat: no-repeat;
+	background-size: 10% 80%;
+	background-position: right;
+	margin-right: 10px;
+}
+
+#blank{
+	width: 100%;
+	height: 72px;
+}
+/*设置颜色*/
+#p3 div{
+	background-image: url(../img/音乐红.png);
+}
+#p3{
+	background-color: #FFDFE5;
+	border-radius: 10px;
+}
+#p3 a{
+	color: #FF2D55;
+}

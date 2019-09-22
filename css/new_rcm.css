@@ -1,0 +1,68 @@
+#main{
+	margin: 10px;
+}
+#time{
+	font-size: 15px;
+	color: #707070;
+	margin: 0px;
+}
+#sp1{
+	font-size: 38px;
+}
+#peo{
+	background-image: url(../img/头像红.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+#pp1{
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 25px;
+}
+#sp2,#sp3{
+	font-size: 18px;
+}
+#div1{
+	background-color: #FF2D55;
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	left: 16%;
+	margin: 20px 0px;
+	color: white;
+}
+#div2{
+	padding: 10px 0px;
+	background-color: #F9F9FE;
+}
+#pp2{
+	font-size: 25px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+}#pp3{
+	color: #FF2D55;
+	font-size: 18px;
+}
+
+#blank{
+	width: 100%;
+	height: 80px;
+}
+#p2 div{
+	background-image: url(../img/心红.png);
+}
+#p2{
+	background-color: #FFDFE5;
+	border-radius: 10px;
+}
+#p2 a{
+	color: #FF2D55;
+}

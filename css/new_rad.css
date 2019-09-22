@@ -1,0 +1,134 @@
+#main{
+	margin: 10px;
+}
+#dg ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 300%;
+}
+#dm li{
+	float: left;
+	padding-right: 10px;
+}
+#dm{
+	width: 100%;
+	height: 325px;
+	overflow: hidden;
+}
+#dg{
+	width: 100%;
+	height: 340px;
+	overflow-x: scroll;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+#h{
+	font-size: 38px;
+	padding-top: 10px;
+}
+.pp1{
+	color: rgb(255,45,85);
+	font-size: 16px;
+}
+.pp2{
+	font-size: 25px;
+}
+.pp3{
+	color: #707070;
+	font-size: 25px;
+}
+#d1{
+	background-image: url(../img/模板一.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 5px;
+	width: 320px;
+	height: 240px;
+}
+#d2{
+	background-image: url(../img/模板二.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+}
+#d3{
+	background-image: url(../img/模板三.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+}
+
+#fade{
+	overflow: hidden;
+	width: 100%;
+	height: 280px;
+}
+#fade ul{
+	list-style: none;
+	padding-left: 0px;
+}
+#fade li{
+	margin: 3%;
+}
+#pic1{
+    background-image: url(../img/变换一.png);
+    background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+    display: block;
+    }
+#pic2{
+    background-image: url(../img/变换二.png);
+    background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+	display: none;
+    }
+#pic3{
+	background-image: url(../img/变换三.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-size: 100% 100%;
+	width: 320px;
+	height: 240px;
+	display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blank{
+	width: 100%;
+	height: 80px;
+}
+/*设置颜色*/
+#p4 div{
+	background-image: url(../img/广播电台红.png);
+}
+#p4{
+	background-color: #FFDFE5;
+	border-radius: 10px;
+}
+#p4 a{
+	color: #FF2D55;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>为您推荐</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_rcm.css"/>
+	</head>
+	<body>
+		<div id="main">
+			<p id="time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<span id="sp1"><b>为您推荐</b></span>
+			<a href="new_user.html"><div id="peo"></div></a><hr />
+			<p id="pp1"><b>告诉我们您的喜好</b></p>
+			<span id="sp2">根据您喜欢的音乐获得精选歌单和专辑。选择一些类型和艺人，接下来就交给我们吧。</span>
+			<div id="div1"><span>开始使用</span></div>
+			
+			<div id="div2">
+				<p id="pp2"><b>与艺人互动</b></p>
+				<span id="sp3">关注您喜爱的艺人与音乐向导，第一时间获得视频、音频、照片及更多内容</span>
+				<p id="pp3"><u>查找艺人与音乐向导</u></p>
+			</div>
+		</div>
+		<div id="blank"></div>
+		
+		<div id="menu">
+			<hr />
+			<ul>
+				<li id="p1">
+					<a href="new_lib.html">
+						<div></div><span>资料库</span>
+					</a>
+				</li>
+				<li id="p2">
+					<a href="#main">
+						<div></div><span>为您推荐</span>
+					</a>
+				</li>
+				<li id="p3">
+					<a href="new_bro.html">
+						<div></div><span>浏览</span>
+					</a>
+				</li>
+				<li id="p4">
+					<a href="new_rad.html">
+						<div></div><span>广播</span>
+					</a>
+				</li>
+				<li id="p5">
+					<a href="new_search.html">
+						<div></div><span>搜索</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	
+	</body>
+	
+	<script src="js/jquery-1.7.js"></script>
+	<script>
+		var $t = $('#time');
+		
+		var w =new Array();
+		w[0] = '星期日'
+		w[1] = '星期一'
+		w[2] = '星期二'
+		w[3] = '星期三'
+		w[4] = '星期四'
+		w[5] = '星期五'
+		w[6] = '星期六'
+		
+	
+		setInterval(function(){
+			var dates = new Date()
+			var min = dates.getMinutes();
+			var hour = dates.getHours();
+		
+			if(dates.getMinutes() < 10){
+				min = '0' + dates.getMinutes()
+			}
+			if(dates.getHours() < 10){
+				hour = '0' + dates.getHours()
+			}
+			
+			$t[0].innerHTML = (dates.getMonth()+1)+'月'+dates.getDate()+'日'+'&nbsp; '
+			+hour+':'+min + '&nbsp; '
+			+w[dates.getDay()]
+		},100)
+
+	</script>
+</html>

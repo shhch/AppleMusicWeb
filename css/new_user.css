@@ -1,0 +1,64 @@
+#main{
+	background-color: rgb(249,249,254);
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	margin: 0px;
+	background-color: white;
+}
+#pb{
+	font-size: 25px;
+	padding: 10px 0px;
+	text-align: center
+}
+a{
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	color: rgb(255,45,85);
+	background-color: rgb(224,224,224);
+	position: relative;
+	top: -40px;
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+}
+#d{
+	margin: 20px 0px 40px 0px;
+	border-top: 1px solid rgb(224,224,224); 
+	border-bottom: 1px solid rgb(224,224,224);
+	background: white;
+	background-image: url(../img/右箭头.png);
+	background-size: 10% 50%;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#per{
+	margin: 8px 0px 0px 10px;
+	background-image: url(../img/头像灰.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+#span{
+	font-size: 25px;
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+.dp{
+	margin: 30px 0px;
+	padding: 20px 10px;
+	border-top: 1px solid rgb(224,224,224); 
+	border-bottom: 1px solid rgb(224,224,224);
+	background-color: white;
+}
+.pr{
+	color: rgb(255,45,85);
+	font-size: 20px;
+}
